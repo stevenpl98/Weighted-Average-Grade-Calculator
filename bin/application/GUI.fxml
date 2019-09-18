@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyReleased="#keys" prefHeight="600.0" prefWidth="582.5" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label layoutX="195.0" layoutY="28.0" text="Weighted Average Grade Calculator" />
+      <Label layoutX="152.0" layoutY="70.0" text="Name" />
+      <Label layoutX="364.0" layoutY="70.0" text="Grade" />
+      <Label layoutX="487.0" layoutY="70.0" text="Percent" />
+      <TextField fx:id="Name1" layoutX="14.0" layoutY="125.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#name1" prefHeight="20.0" prefWidth="300.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Grade1" layoutX="335.0" layoutY="125.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#grade1" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Percent1" layoutX="465.0" layoutY="125.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#percent1" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Name2" layoutX="14.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#name2" prefHeight="20.0" prefWidth="300.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Name3" layoutX="14.0" layoutY="185.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#name3" prefHeight="20.0" prefWidth="300.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Name4" layoutX="14.0" layoutY="215.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#name4" prefHeight="20.0" prefWidth="300.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Name5" layoutX="14.0" layoutY="245.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#name5" prefHeight="20.0" prefWidth="300.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Name6" layoutX="14.0" layoutY="275.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#name6" prefHeight="20.0" prefWidth="300.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Name7" layoutX="14.0" layoutY="305.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#name7" prefHeight="20.0" prefWidth="300.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Name8" layoutX="14.0" layoutY="335.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#name8" prefHeight="20.0" prefWidth="300.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Name9" layoutX="14.0" layoutY="365.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#name9" prefHeight="20.0" prefWidth="300.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Name10" layoutX="14.0" layoutY="395.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#name10" prefHeight="20.0" prefWidth="300.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Name11" layoutX="14.0" layoutY="425.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#name11" prefHeight="20.0" prefWidth="300.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Name12" layoutX="14.0" layoutY="455.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#name12" prefHeight="20.0" prefWidth="300.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Grade2" layoutX="335.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#grade2" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Grade3" layoutX="335.0" layoutY="185.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#grade3" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Grade4" layoutX="335.0" layoutY="215.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#grade4" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Grade5" layoutX="335.0" layoutY="245.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#grade5" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Grade6" layoutX="335.0" layoutY="275.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#grade6" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Grade7" layoutX="335.0" layoutY="305.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#grade7" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Grade8" layoutX="335.0" layoutY="335.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#grade8" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Grade9" layoutX="335.0" layoutY="365.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#grade9" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Grade10" layoutX="335.0" layoutY="395.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#grade10" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Grade11" layoutX="335.0" layoutY="425.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#grade11" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Grade12" layoutX="335.0" layoutY="455.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#grade12" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Percent2" layoutX="465.0" layoutY="155.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#percent2" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Percent3" layoutX="465.0" layoutY="185.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#percent3" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Percent4" layoutX="465.0" layoutY="215.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#percent4" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Percent5" layoutX="465.0" layoutY="245.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#percent5" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Percent6" layoutX="465.0" layoutY="275.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#percent6" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Percent7" layoutX="465.0" layoutY="305.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#percent7" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Percent8" layoutX="465.0" layoutY="335.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#percent8" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Percent9" layoutX="465.0" layoutY="365.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#percent9" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Percent10" layoutX="465.0" layoutY="395.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#percent10" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Percent11" layoutX="465.0" layoutY="425.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#percent11" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <TextField fx:id="Percent12" layoutX="465.0" layoutY="455.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#percent12" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <Button fx:id="Calculate" layoutX="14.0" layoutY="510.0" mnemonicParsing="false" onAction="#calculateButton" text="Calculate" />
+      <Button fx:id="Reset" layoutX="95.0" layoutY="510.0" mnemonicParsing="false" onAction="#resetButton" text="Reset" />
+      <TextField fx:id="Average" layoutX="465.0" layoutY="516.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#average" prefHeight="20.0" prefWidth="100.0">
+         <font>
+            <Font size="12.0" />
+         </font></TextField>
+      <Label layoutX="395.0" layoutY="515.0" text="Average:" />
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+</AnchorPane>
